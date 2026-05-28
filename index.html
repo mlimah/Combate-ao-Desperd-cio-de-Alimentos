@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Agro Forte - Futuro Sustentável</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Header e Navegação -->
+   <header>
+       <nav class="navbar">
+           <div class="logo">Agro Forte</div>
+           <ul class="nav-links">
+               <li><a href="#hero">Home</a></li>
+               <li><a href="#quiz">Quiz</a></li>
+               <li><a href="#timeline">Timeline</a></li>
+               <li><a href="#dashboard">Dashboard</a></li>
+               <li><a href="#contact">Contato</a></li>
+           </ul>
+           <div class="toggle-dark" id="darkModeToggle">🌙</div>
+       </nav>
+   </header>
+
+
+   <!-- Hero Section -->
+   <section id="hero" class="hero">
+       <div class="hero-content">
+           <h1>Combata o Desperdício de Alimentos</h1>
+           <p>Aprenda práticas sustentáveis no campo e na cidade.</p>
+           <button id="startQuizBtn" class="btn">Comece o Quiz</button>
+       </div>
+       <div class="hero-animation"></div>
+   </section>
+
+
+   <!-- Cards Informativos -->
+   <section class="cards-section">
+       <h2>Práticas Sustentáveis</h2>
+       <div class="cards-container">
+           <div class="card">
+               <h3>Planeje suas compras</h3>
+               <p>Evite comprar alimentos que não serão consumidos.</p>
+           </div>
+           <div class="card">
+               <h3>Armazenamento correto</h3>
+               <p>Conserve alimentos para prolongar sua validade.</p>
+           </div>
+           <div class="card">
+               <h3>Doe o excedente</h3>
+               <p>Alimentos não utilizados podem ajudar quem precisa.</p>
+           </div>
+       </div>
+   </section>
+
+
+   <!-- Quiz Interativo -->
+   <section id="quiz" class="quiz-section">
+       <h2>Quiz: O que você sabe sobre desperdício?</h2>
+       <div class="quiz-container">
+           <div class="question" id="question"></div>
+           <div class="options" id="options"></div>
+           <button id="nextBtn" class="btn">Próxima</button>
+           <div class="score" id="score"></div>
+       </div>
+   </section>
+
+
+   <!-- Timeline -->
+   <section id="timeline" class="timeline-section">
+       <h2>Linha do Tempo do Desperdício</h2>
+       <div class="timeline">
+           <div class="timeline-item">
+               <h3>Campo</h3>
+               <p>Perdas devido ao excesso de produção e má conservação.</p>
+           </div>
+           <div class="timeline-item">
+               <h3>Transporte</h3>
+               <p>Alimentos estragam durante transporte sem refrigeração.</p>
+           </div>
+           <div class="timeline-item">
+               <h3>Cidade</h3>
+               <p>Consumidores jogam fora alimentos ainda comestíveis.</p>
+           </div>
+       </div>
+   </section>
+
+
+   <!-- Dashboard com Contadores -->
+   <section id="dashboard" class="dashboard-section">
+       <h2>Impacto do Desperdício</h2>
+       <div class="counters">
+           <div class="counter">
+               <h3 id="counter1">0</h3>
+               <p>Alimentos desperdiçados (toneladas)</p>
+           </div>
+           <div class="counter">
+               <h3 id="counter2">0</h3>
+               <p>Pessoas afetadas pela fome</p>
+           </div>
+           <div class="counter">
+               <h3 id="counter3">0</h3>
+               <p>Iniciativas sustentáveis</p>
+           </div>
+       </div>
+   </section>
+
+
+   <!-- Footer -->
+   <footer id="contact">
+       <p>© 2026 Agro Forte. Todos os direitos reservados.</p>
+       <p>Contato: contato@agroforte.com</p>
+   </footer>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
